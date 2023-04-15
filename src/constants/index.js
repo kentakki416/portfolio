@@ -8,12 +8,11 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
+  go,
   git,
-  figma,
+  next,
   docker,
   meta,
   starbucks,
@@ -22,7 +21,7 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  laravel,
   blog,
 } from "../assets";
 
@@ -82,10 +81,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -94,20 +89,20 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Golang",
+    icon: go,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Laravel",
+    icon: laravel,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Next",
+    icon: next,
   },
   {
     name: "docker",
