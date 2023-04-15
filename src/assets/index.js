@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -6,20 +6,20 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import blog from "./blog.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import laravel from "./tech/laravel.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+import go from "./tech/go.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import next from "./tech/next.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -41,17 +41,17 @@ export {
   close,
   css,
   docker,
-  figma,
+  laravel,
   git,
   html,
   javascript,
-  mongodb,
+  go,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
-  threejs,
+  next,
+
   meta,
   shopify,
   starbucks,
@@ -59,4 +59,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  blog,
 };
