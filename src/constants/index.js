@@ -12,20 +12,28 @@ import {
   nodejs,
   go,
   git,
-  next,
+  kubernetes,
+  redis,
+  mongo,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   laravel,
-  blog,
+  kubernetesMeetUp,
+  shellMeetUp,
+  dockerMeetUp,
+  calenderGo,
+  umarche,
+  vuesplash,
+  kyutech,
+  yagocoro,
+  abema,
+  pigg,
 } from "../assets";
 
 export const navLinks = [
+  {
+    id: "https://github.com/kentakki416/",
+    title: "github",
+  },
   {
     id: "about",
     title: "About",
@@ -54,7 +62,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "System Designer ",
+    title: "IT Consultant ",
     icon: creator,
   },
 ];
@@ -101,151 +109,140 @@ const technologies = [
     icon: git,
   },
   {
-    name: "Next",
-    icon: next,
+    name: "kubernetes",
+    icon: kubernetes,
   },
   {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "redis",
+    icon: redis,
+  },
+  {
+    name: "Mongo",
+    icon: mongo,
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Start IT Engineer",
+    company_name: "Kyushu Institute of Technology",
+    icon: kyutech,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2018 - April 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "learned about software design.",
+      "I became interested in programming in a university class and started teaching himself.",
+      "I worked as an intern at several companies and as a programming school teacher.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "PHP Developer",
+    company_name: "YAGOCORO",
+    icon: yagocoro,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2020 - Feb 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I was assigned to an actual project for the first time in my life.",
+      "The model of the project was becoming bloated, so I carried out the task of introducing a clean architecture.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Go Developer",
+    company_name: "Abema",
+    icon: abema,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2021 - Jan 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learned Go for the first time",
+      "I was involved in a video processing service for World Cup video distribution.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Node Developer",
+    company_name: "Pigg Party",
+    icon: pigg,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learned about Node.js for the first time",
+      "In addition to developing new features, I also perform SRE tasks.",
     ],
   },
 ];
 
 const blogs = [
   {
-    title: "react tech blog",
-    image: blog,
-    link: "https://"
+    title: "Kubernetes勉強会",
+    image: kubernetesMeetUp,
+    link: "https://docs.google.com/presentation/d/1YV0gJG1NRvntuu4YhwEei0e_M6MresqFFQmkjS2T7VQ/edit?usp=sharing"
   },
   {
-    title: "golang tech blog",
-    image: blog,
-    link: "https://"
+    title: "シェルスクリプト入門",
+    image: shellMeetUp,
+    link: "https://docs.google.com/presentation/d/1V6_kZ1Bal2-IERIvONnaqyS561z8NBDM5Ct-7rXeFS8/edit?usp=sharing"
   },
   {
-    title: "node.js tech blog",
-    image: blog,
-    link: "https://"
+    title: "Docker入門",
+    image: dockerMeetUp,
+    link: "https://docs.google.com/presentation/d/18B3tTEbceDiibOMabBaUnQLs0iu-s_EaKX3_chZ0Ayo/edit#slide=id.g252b4dd921f_0_0"
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Calender-Go",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "This project was created in imitation of Google Calendar. You'll probably find it indistinguishable from the real thing.",
     tags: [
+      {
+        name: "go",
+        color: "blue-text-gradient",
+      },
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: calenderGo,
+    source_code_link: "https://github.com/kentakki416/calender-go",
   },
   {
-    name: "Job IT",
+    name: "laravel8-umarche",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This is a complete e-commerce site, with both an administrator interface and a seller interface, as well as a user interface. The items listed by the sellers can be purchased by users with a credit card.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "php",
         color: "pink-text-gradient",
       },
+      {
+        name: "blade",
+        color: "gray-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: umarche,
+    source_code_link: "https://github.com/kentakki416/laravel8-umarche",
   },
   {
-    name: "Trip Guide",
+    name: "vuesplash",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A photo sharing app that imitates a service called Unsplash using laravel and vue",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "php",
         color: "pink-text-gradient",
       },
+      {
+        name: "vue",
+        color: "green-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: vuesplash,
+    source_code_link: "https://github.com/kentakki416/vuesplash",
   },
 ];
 

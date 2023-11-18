@@ -6,7 +6,10 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import blog from "./blog.png";
+
+import kubernetesMeetUp from "./meetUp/kubernetesMeetUp.png";
+import shellMeetUp from "./meetUp/shellMeetUp.png";
+import dockerMeetUp from "./meetUp/dockerMeetUp.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -19,16 +22,18 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import next from "./tech/next.png";
+import kubernetes from "./tech/kubernetes.png";
+import redis from "./tech/redis.png";
+import mongo from "./tech/mongo.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import abema from "./company/abema.png";
+import kyutech from "./company/kyutech.png";
+import pigg from "./company/pigg.png";
+import yagocoro from "./company/yagocoro.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import calenderGo from "./project/calender-go.png";
+import umarche from "./project/umarche.png";
+import vuesplash from "./project/vuesplash.png";
 
 export {
   logo,
@@ -50,14 +55,17 @@ export {
   reactjs,
   tailwind,
   typescript,
-  next,
-
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
-  blog,
+  kubernetes,
+  redis,
+  mongo,
+  abema,
+  kyutech,
+  pigg,
+  yagocoro,
+  kubernetesMeetUp,
+  shellMeetUp,
+  dockerMeetUp,
+  calenderGo,
+  umarche,
+  vuesplash,
 };
